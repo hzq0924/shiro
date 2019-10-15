@@ -19,5 +19,7 @@
         </collection>
     </resultMap>
 
-    <select id="findByUsername" parameterType="string"
+    <select id="findByUsername" parameterType="string" resultMap="userMap">
+
+    </select>
 </mapper>
